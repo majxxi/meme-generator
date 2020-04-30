@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meme creator</title>
+    <link rel="stylesheet" href="meme-creator.css">
+</head>
+<body>
+    <form id="memeform">
+        <h1 id="h1">MEMER</h1>
+        <label for="image">IMAGE?</label>
+            <input type="text" name="url" id="url" placeholder="" /></br>
+        <label for="top-text">SETUP?</label>
+            <input type="text" name="top-text" id="top-text" placeholder="" />
+            <input type="range" name="top-text-size" id="top-text-size" min="10" max="100" /></br>
+        <label for="bottom-text">PUNCHLINE?</label>
+            <input type="text" name="bottom-text" id="bottom-text" placeholder="" />
+            <input type="range" name="bottom-text-size" id="bottom-text-size" min="10" max="100" /></br>
+        <input type="submit" value="CREATE" />
+    </form>
+
+    <ul class="containingDiv" id="results">
+        <div class="meme">
+            <div class="topText"></div>
+            <div class="bottomText"></div>
+        </div>
+    </ul>
+
+
+    <script src="meme-creator.js"></script>
+</body>
+</html>
