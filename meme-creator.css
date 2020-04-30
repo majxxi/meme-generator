@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+#results {
+    color: yellow;   
+    letter-spacing: 0.5px; 
+    font-family: Helvetica;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+    max-width: 100%;
+    margin-left: 20%;
+}
+
+#memeform {
+    margin-left: 35%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+.meme {
+    position: relative;
+    display: table;
+    text-align: center;
+}
+
+.meme > .topText {
+    top: 5%;
+    right: 0;
+    display: table-caption;
+    caption-side: top;
+    max-width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.meme > .bottomText {
+    bottom: 10%;
+    display: table-caption;
+    caption-side: bottom;
+    max-width: 100%;
+    right: 0;
+    left: 0;
+}
+
+.deleteBtn {
+    height: 30px;
+    background: #000;
+}
+
+#h1 {
+    font-family: helvetica;
+    font-size: 75px;
+    margin-top: 5%;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    font-family: helvetica;
+    font-size: 21px;
+  }
+  
+  input[type=text] {
+    height: 30px;
+    flex: 0 0 200px;
+    width: 400px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+  }
+
+  input[type=text]:focus {
+    background-color: black;
+  }
+
+  input[type=submit] {
+    padding:5px 15px; 
+    background: white;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-family: Helvetica;
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
